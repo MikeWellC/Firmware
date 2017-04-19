@@ -2931,6 +2931,7 @@ int commander_thread_main(int argc, char *argv[])
 		}
 
 		/* Check for failure combinations which lead to flight termination */
+		/*mike ceshi*/
 		if (armed.armed &&
 		    !status_flags.circuit_breaker_flight_termination_disabled) {
 			/* At this point the data link and the gps system have been checked
